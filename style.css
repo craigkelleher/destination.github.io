@@ -1,3 +1,11 @@
+* {
+    box-sizing: border-box;
+  }
+  
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 #header{
     border-width: 5px;
     border: 6px solid rgb(129, 237, 41);
@@ -73,6 +81,15 @@ h2{
     padding: 0px;
 }
 
+#row-description{
+    margin: 0px;
+    margin-bottom: 5px;
+    resize: vertical;
+    overflow: auto;
+    float: left;
+  width: 100%;
+}
+
 #row-2{
     border: 6px solid rgb(237, 230, 41);
     height: 400px;
@@ -87,7 +104,8 @@ h2{
     padding: 0.25em;
     border: 0px;
     color: rgb(255, 255, 255);
-    width: 96%;
+    position:relative;
+    left: 6px;
 }
 
 #destination-details{
@@ -99,3 +117,15 @@ h2{
     padding-top: 0.5em;
 }
 
+input {
+    max-width: 100%;
+    min-width: 100%;
+}
+
+Label{
+    padding: 0.15em;
+}
+
+textarea{
+    width:100%
+}
