@@ -1,6 +1,11 @@
 * {
     box-sizing: border-box;
   }
+
+.row>*{
+    padding-right: 0;
+    padding-left: 0;
+}
   
 body{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
@@ -104,8 +109,6 @@ h2{
     padding: 0.25em;
     border: 0px;
     color: rgb(255, 255, 255);
-    position:relative;
-    left: 6px;
 }
 
 #destination-details{
