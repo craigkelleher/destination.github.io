@@ -98,6 +98,10 @@ h2{
     max-height: 190px;
 }
 
+input {
+    width:100%;
+}
+
 #row-2{
     border: 6px solid rgb(237, 230, 41);
     height: 400px;
@@ -123,9 +127,7 @@ h2{
     padding-top: 0.5em;
 }
 
-input {
-    min-width: 100%;
-}
+
 
 Label{
     padding: 0.15em;
